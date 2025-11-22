@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Data and models
+data/
+logs/
+models/
+catboost_*.cbm
+catboost_info/
+
+# notebooks
+.ipynb_checkpoints/
+
+# Visuals and local artifacts
+*.png
+*.svg
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# requirements
+.env
+
+# streamlit cache
+.streamlit
